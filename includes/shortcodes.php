@@ -23,6 +23,7 @@ function quaderno_checkout_shortcode( $attr, $content = null ) {
   'label' => 'Pay Now',
   'panel_label' => 'Pay {{amount}}',
   'locale' => 'en',
+  'billing_address' => false,
   'redirect_url' => ''
   ), $attr));
 
@@ -49,7 +50,8 @@ function quaderno_checkout_shortcode( $attr, $content = null ) {
     data-currency="' . $currency . '"
     data-label="' . $label . '"
     data-panel-label="'. $panel_label . '"
-    data-locale="' . $locale . '" ' . $transaction_info . '></script>
+    data-locale="' . $locale . '"
+    data-billing-address="' . $billing_address . '" ' . $transaction_info . '></script>
   </form>';
 
   return $html;
