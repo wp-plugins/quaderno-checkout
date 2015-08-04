@@ -3,7 +3,7 @@
 * Plugin Name: Quaderno Checkout
 * Plugin URI: https://wordpress.org/plugins/quaderno-checkout
 * Description: Be EU VAT compliant and send beautiful invoices to your customers in minutes using shortcodes.
-* Version: 1.1.0
+* Version: 1.2.0
 * Author: Quaderno
 * Author URI: http://quaderno.io
 * License: GPL2
