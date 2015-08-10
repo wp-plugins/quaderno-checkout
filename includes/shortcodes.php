@@ -32,7 +32,9 @@ function quaderno_checkout_shortcode( $attr, $content = null ) {
     $token = array(
       'iat' => time(),
       'amount' => $amount,
-      'currency' => $currency
+      'currency' => $currency,
+      'description' => $description,
+      'transaction-type' => $transaction_type
     );
 
     $transaction_info = 'data-charge="' . JWT::encode($token, get_option('quaderno_private_key')) . '"';
