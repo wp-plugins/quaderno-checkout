@@ -67,6 +67,9 @@ If you have any questions please get in touch with us at hello@quaderno.io.
 
 == Changelog ==
 
+= 1.2.2 =
+* Hide VAT number is the customer belongs to certain country
+
 = 1.2.1 =
 * Hide VAT number is the customer belongs to certain country
 
